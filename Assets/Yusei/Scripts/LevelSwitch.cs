@@ -19,11 +19,22 @@ public class LevelSwitch : MonoBehaviour
     }
     private void OnTriggerEnter(Collider otherObject)
     {
+        
         if (otherObject.transform.tag == "Player")
         {
-            Destroy(this.gameObject);
-            SceneManager.LoadScene(nextLevel);
+            if (gameManager.maxPickups > gameManager.currentPickups)
+            {
+                Debug.Log("You need to collect all pickups before switching levels.");
+                return;
+            }
+            else
+            {
+                Destroy(this.gameObject);
+                SceneManager.LoadScene(nextLevel);
+            }
+                
         }
+
     }
 }
 
