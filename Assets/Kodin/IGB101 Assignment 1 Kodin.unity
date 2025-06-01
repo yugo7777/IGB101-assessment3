@@ -43347,7 +43347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1514813232}
-  nextLevel: 
+  nextLevel: IGB101
 --- !u!1 &1481688352
 GameObject:
   m_ObjectHideFlags: 0
