@@ -31972,6 +31972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6983925761449121025}
+  - component: {fileID: 2109227579097853618}
   m_Layer: 0
   m_Name: merge torrii gate
   m_TagString: Untagged
@@ -31988,11 +31989,10 @@ Transform:
   m_GameObject: {fileID: 6392813027107280335}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.65913194, z: -0, w: 0.75202733}
-  m_LocalPosition: {x: -39.68, y: 3.8887677, z: 19.804924}
+  m_LocalPosition: {x: -40.16, y: 3.8887677, z: 19.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 101243297974586062}
   - {fileID: 238582926103616086}
   - {fileID: 6489294383055607903}
   - {fileID: 2114107709331893662}
@@ -32006,8 +32006,30 @@ Transform:
   - {fileID: 7439460785489920322}
   - {fileID: 8095482235570836842}
   - {fileID: 6571854155303540737}
+  - {fileID: 101243297974586062}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -82.467, z: 0}
+--- !u!65 &2109227579097853618
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392813027107280335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7933036988232049542
 GameObject:
   m_ObjectHideFlags: 0
